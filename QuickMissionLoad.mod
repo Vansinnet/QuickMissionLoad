@@ -1,5 +1,5 @@
 return {
-    version = "1.0.0",
+    version = "1.0.1",
     run = function()
         fassert(rawget(_G, "new_mod"), "`QuickMissionLoad` failed loading DMF.")
         new_mod("QuickMissionLoad", {

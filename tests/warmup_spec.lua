@@ -94,7 +94,7 @@ source("foundation/managers/package/utilities/item_package", {
 })
 source("backend/master_items", { get_cached = function() return items_ready and {} or nil end })
 source("ui/views/mission_intro_view/mission_intro_view_settings", { intro_levels_by_zone_id = { default = { level_name = "intro" } } })
-source("settings/mutator/mutator_mininion_visual_overrides_settings", {})
+source("settings/mutator/mutator_minion_visual_overrides_settings", {})
 source("settings/mutator/mutator_templates", { storm = { asset_package = "storm_asset" } })
 source("foundation/managers/package/utilities/theme_package", {
     level_resource_dependency_packages = function(_, theme)
